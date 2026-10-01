@@ -1,0 +1,23 @@
+{
+  "name": "aqa-hillel-js-ind",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:sttaran/aqa-hillel-js-ind.git"
+  },
+  "license": "ISC",
+  "author": "Stanislav",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./basics/string.js",
+    "test:number": "node ./basics/number.js"
+  },
+  "dependencies": {
+    "chalk": "^6.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9"
+  }
+}
