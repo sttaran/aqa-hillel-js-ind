@@ -107,3 +107,23 @@ const user = {
 
 
 printUserInfo(user);
+
+
+const users= [
+  {
+  age: 30,
+  name: "John",
+  gender: "male",
+  occupation: "developer"
+},
+  {
+  age: 30,
+  name: "John",
+  gender: "male",
+  occupation: "developer"
+}
+]
+
+for (const {age} of users) {
+  
+}

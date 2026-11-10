@@ -1,10 +1,17 @@
 class Student {
     #name
 
+    static innerName = "studentClass"
+
     constructor(name, age){
         this.#name = name
         this.age = age
         this._avgRating = 0
+    }
+
+
+    static printInnerName(){
+         console.log(this.innerName)
     }
 
     greet() {
@@ -12,14 +19,16 @@ class Student {
     }
 
 
+
+
     // setRating(rating){
     //     this._avgRating = rating
     // }
 
 
-    // setName(name){
-    //     this.#name = name
-    // }
+    setName(name){
+        this.#name = name
+    }
 
     set rating(rating){
         if (rating <= 0){
@@ -34,13 +43,18 @@ class Student {
 }
 
 
-const student1 = new Student("Stas", 31)
-const student2 = new Student("Marina", 22)
+Student.printInnerName()
+console.log(Student.innerName)
+
+
+// const student1 = new Student("Stas", 31)
+// const student2 = new Student("Marina", 22)
 
 
 
-student1.rating = -10
-console.log(student1.rating)
+// student1.rating = -10
+// student1.setName("ololo")
+// console.log(student1.rating)
 
 
 
