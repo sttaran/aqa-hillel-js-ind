@@ -1,0 +1,80 @@
+// const user = {
+//     'first name': "Stas",
+//     age: 30,
+//     hobbies: ["gaming", "programming"],
+//     ratings: {
+//         Java: 8,
+//         JS: 10
+//     }
+// }
+
+
+// for (const key in user) {
+//     console.log("key", key)
+//     console.log("value", user[key])
+// }
+
+// console.log(user["first name"])
+
+// user.name = "Pablo"
+
+// // console.log(user.hobbies[0])
+// console.log(user.ratings.JS)
+
+
+// 
+
+// function Person(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+
+// const john = new Person("John", 30);
+
+// console.log(john)
+
+
+
+// const user = {
+//     firstName : "Stas"
+// }
+
+// console.log(user)
+
+// user.lastName = "Taran"
+
+// console.log(user)
+
+// delete user.firstName
+
+// console.log(user)
+
+
+
+// const firstName = "Stas"
+
+// const user = {
+//     firstName,
+//     greet: function (){
+//         console.log(`hi. I am ${this.firstName}`)
+//     }
+// }
+
+// user.greet()
+
+
+const users = [
+    {
+        name: "Stas",
+        address: {
+            city: "Dnipro"
+        }
+    },
+    {
+        name: "Marina"
+    },
+]
+
+
+// users.forEach(user => console.log(user.address?.city))
+// users.forEach(user => console.log(user.address?.city ?? "Unknown"))
