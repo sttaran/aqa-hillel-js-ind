@@ -11,11 +11,12 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node ./basics/string.js",
+    "test": "npx ts-node ts/composing.ts",
     "test:number": "node ./basics/number.js"
   },
   "dependencies": {
-    "chalk": "^6.0.1"
+    "chalk": "^6.0.1",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
